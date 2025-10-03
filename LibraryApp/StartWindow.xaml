@@ -1,0 +1,15 @@
+﻿<Window x:Class="LibraryApp.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Библиотека" Height="300" Width="400">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Добро пожаловать в библиотеку" 
+                       FontSize="16" Margin="0,0,0,20" 
+                       HorizontalAlignment="Center"/>
+            <Button Content="Перейти к базе" Width="150" Height="40" 
+                    Click="OpenMain_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
